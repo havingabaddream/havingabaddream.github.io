@@ -26,10 +26,7 @@ h3 {
 	color:#858585;
 	text-decoration: underline;
 }
-.windowheading{
-	border:1px solid black;
-	padding-left:5px;
-}
+
 
 
 /*header*/
@@ -112,8 +109,10 @@ h3 {
 #content {
 	display:table-cell;
 	width:auto;
-	border-left:1px solid black;
 	padding:5px;
+}
+#content.leftborder {
+	border-left:1px solid black;
 }
 .window {
 	border-left:1px solid black;
@@ -121,6 +120,14 @@ h3 {
 	border-bottom:1px solid black;
 	padding:5px;
 }
+.window.top {
+	border-top:1px solid black;
+}
+.windowheading{
+	border:1px solid black;
+	padding-left:5px;
+}
+
 .title {
 	font-size:18;
 	text-align:center;
