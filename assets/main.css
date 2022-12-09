@@ -13,6 +13,9 @@ p {
 h3 {
 	font-family:tahoma,arial,sans-serif;
 	font-size:14px;
+}	
+a, a:visited, a:hover, a:active {
+  color: inherit;
 }
 .link {
 	font-family:tahoma,arial,sans-serif;
@@ -26,13 +29,24 @@ h3 {
 	color:#858585;
 	text-decoration: underline;
 }
-
+.biglink {
+	font-family:tahoma,arial,sans-serif;
+	font-size:18px;
+	color:black;
+	text-decoration:None;
+}
+.biglink:hover {
+	font-family:tahoma,arial,sans-serif;
+	font-size:18px;
+	color:#858585;
+	text-decoration: underline;
+}
 
 
 /*header*/
 #header {
 	display:table;
-	width:700px;
+	width:800px;
 	margin:auto;
 	vertical-align: top;
 
@@ -79,12 +93,12 @@ h3 {
 
 /*page*/
 #page {
-	width:700px;
+	/*possibly 700px*/
+	width:800px;
 	border-left:1px solid black;
 	border-right:1px solid black;
 	border-bottom:1px solid black;
 	display:table;
-	width:700px;
 	margin:auto;
 	vertical-align: top;
 }
