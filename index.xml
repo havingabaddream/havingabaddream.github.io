@@ -1,43 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Having a Bad Dream</title>
+    <link>https://www.havingabaddream.nz/</link>
+    <description>Recent content on Having a Bad Dream</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 03 Jun 2023 00:20:33 +1200</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jun 2023 23:30:12 +1200</lastBuildDate><atom:link href="https://www.havingabaddream.nz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>http://example.org/about/</link>
+      <link>https://www.havingabaddream.nz/about/</link>
       <pubDate>Sun, 11 Jun 2023 21:49:51 +1200</pubDate>
       
-      <guid>http://example.org/about/</guid>
+      <guid>https://www.havingabaddream.nz/about/</guid>
       <description>Q: What&#39;s all this, then?
 If It Stops, I&#39;m Having a Bad Dream is a blog intended to serve as one node of opinion and analysis in the context. We come to you on demand through your fibre-optic cable -- capital&#39;s Q: Is this site run by post-modern neo-Marxists?
 Yes.
 Q: What&#39;s with the old-timey site, gramps?
-Revolutionary new technologies, and especially media technologies, simultaneously possess an empancipatory as well as oppressive potentiality.</description>
-    </item>
-    
-    <item>
-      <title>My Second Post</title>
-      <link>http://example.org/posts/my-second-post/</link>
-      <pubDate>Sat, 03 Jun 2023 00:20:33 +1200</pubDate>
-      
-      <guid>http://example.org/posts/my-second-post/</guid>
-      <description></description>
+Revolutionary new technologies, and especially media technologies, simultaneously possess empancipatory as well as oppressive potentialities.</description>
     </item>
     
     <item>
       <title>My First Post</title>
-      <link>http://example.org/posts/my-first-post/</link>
+      <link>https://www.havingabaddream.nz/articles/my-first-post/</link>
       <pubDate>Fri, 02 Jun 2023 23:30:12 +1200</pubDate>
       
-      <guid>http://example.org/posts/my-first-post/</guid>
-      <description>Look, folks, the problem with airline food is this. asd asd sad as lore masd mlkasdlksadlksajdklasjdlsakjdasljdaslkjdaslkj
+      <guid>https://www.havingabaddream.nz/articles/my-first-post/</guid>
+      <description>A witty subcaption Look, folks, the problem with airline food is this. asd asd sad as lore masd mlkasdlksadlksajdklasjdlsakjdasljdaslkjdaslkj
 dlsak jlkdjas
-lkjdlasjdlsakjdklasjdlksajlsajaslkjsalkjdaslkdjksajdasdjasl</description>
+lkjdlasjdlsakjdklasjdlksajlsajaslkjsalkjdaslkdjksajdasdjasl
+Even the windows are crying out, it seems.
+This is a witty remark about what the image is.
+A second witty subcaption This is a big problem, as we all unnderstand extremely well. Now for some quoted text.
+Polls manipulate the undecidable. Do they affect votes? True of false?</description>
     </item>
     
   </channel>

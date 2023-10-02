@@ -8,9 +8,10 @@ body {
 	width:700px;
 	margin:auto;
 	outline:solid 1px;
+	margin-bottom: 50px;
 }
 p {
-	font-size:13px;
+	font-size:12px;
 }
 a { 
  text-decoration: none; 
@@ -23,6 +24,9 @@ a:visited {
 h1 {
 	text-align: center;
 	margin: 10px;
+}
+h2 {
+	font-size:15px;
 }
 
 /*Common classes*/
@@ -40,9 +44,14 @@ h1 {
 	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
-	margin-bottom: 10px;
+	margin-bottom: 12px;
 }
-
+blockquote {
+	margin-left: 20px;
+	padding-left: 20px;
+	border-left: solid gray 1px;
+	color:gray;
+}
 
 .table {
 	display:table;
@@ -86,6 +95,7 @@ header {
 	border-right:solid 1px;
 	padding:5px;
 }
+
 .thumbnail {
 	border-bottom:dashed 1px;
 	border-left:dashed 1px;
@@ -96,7 +106,14 @@ header {
 /*Content*/
 main {
 	padding:5px;
+	padding-left:20px;
+	padding-right:20px;
+	text-align: justify;
 }
+main > p, main > blockquote {
+	margin-bottom: 12px;
+}
+
 #main {
 	width:auto;
 	display:table-cell;
@@ -104,4 +121,19 @@ main {
 }
 .title {
 	text-align: center;
+}
+
+p > img {
+	border: 5px solid #DE3163;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.blurb {
+	color: grey;
+	text-align: center;
+}
+
+main a, main a:visited{
+	color:#DE3163;
 }
