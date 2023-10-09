@@ -14,8 +14,9 @@ p {
 	font-size:12px;
 }
 a { 
- text-decoration: none; 
- color: black; 
+ 	text-decoration: none; 
+ 	color: black;
+
 }
 a:visited { 
  text-decoration: none; 
@@ -51,6 +52,7 @@ blockquote {
 	padding-left: 20px;
 	border-left: solid gray 1px;
 	color:gray;
+	font-size:12px;
 }
 
 .table {
@@ -88,12 +90,25 @@ header {
 	margin:5px;
 }
 
+/*Whole page*/
+#page {
+	display:table;
+	width:100%;
+	margin-bottom: 20px;
+}
+
+
+
+
 /*Sidebar*/
 #sidebar {
 	width:150px;
 	display:table-cell;
 	border-right:solid 1px;
 	padding:5px;
+}
+aside > p {
+	margin-top: 12px;
 }
 
 .thumbnail {
@@ -102,6 +117,16 @@ header {
 	border-right:dashed 1px;
 	padding: 5px;
 }
+.icon {
+	border:none;
+	display: inline;
+	vertical-align: top;
+}
+.thumbnail > a {
+	font-size: 15px;
+}
+
+
 
 /*Content*/
 main {
@@ -110,7 +135,7 @@ main {
 	padding-right:20px;
 	text-align: justify;
 }
-main > p, main > blockquote {
+main > p, main > blockquote, main > h2 {
 	margin-bottom: 12px;
 }
 
@@ -128,12 +153,27 @@ p > img {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 80%;
+	height: auto;
 }
 .blurb {
 	color: grey;
 	text-align: center;
 }
 
-main a, main a:visited{
+main a, main a:visited {
 	color:#DE3163;
+}
+aside a, aside a:visited {
+	color:#DE3163;
+}
+
+
+
+/*Articles page*/
+.bigthumbnail {
+	border-top:solid 1px;
+	border-left:dashed 1px;
+	border-right:dashed 1px;
+	padding: 5px;
 }
