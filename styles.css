@@ -11,15 +11,17 @@ body {
 	margin-bottom: 50px;
 }
 @media (max-width: 700px) {
-  body, #banner {
-    width:500px;
+  body {
+    width:350px;
 
   }
 }
 @media (max-width: 700px) {
+  #banner {
+    height:50px;
 
+  }
 }
-
 
 p {
 	font-size:12px;
@@ -117,6 +119,11 @@ header {
 	display:table-cell;
 	border-right:solid 1px;
 	padding:5px;
+}
+@media (max-width: 700px) {
+  #sidebar {
+  	display:none;
+  }
 }
 aside > p {
 	margin-top: 12px;
