@@ -11,18 +11,11 @@ body {
 	margin-bottom: 50px;
 }
 @media (max-width: 700px) {
-  body {
-    width:350px;
-
-  }
+	body {
+		outline: none;
+		width:auto;
+	}
 }
-@media (max-width: 700px) {
-  #banner {
-    height:50px;
-
-  }
-}
-
 p {
 	font-size:12px;
 }
@@ -53,8 +46,9 @@ h2 {
 .windowheading {
 	outline:solid black 1px;
 	padding-left: 5px;
+	padding-right: 5px;
 }
-.window > p {
+.window > p, .quanda > p {
 	margin-top: 5px;
 	margin-left: 5px;
 	margin-right: 5px;
@@ -83,6 +77,9 @@ blockquote {
 	display:table-cell;
 }
 
+
+
+
 /*Header*/
 header {
 	display:table;
@@ -93,23 +90,36 @@ header {
 	font-size:13px;
 	font-weight:normal;
 	margin-left:5px;
-	
+	margin-right:5px;
 }
 #navbar {
 	width:100%;
 	font-size:16px;
 	font-weight:normal;
 	text-align:center;
-	margin:5px;
+	margin:10px;
 }
 
 /*Whole page*/
-#page {
-	display:table;
-	width:100%;
-	margin-bottom: 20px;
+@media (max-width: 700px) {
+   #page {
+    width:350px;
+    margin:auto;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+  }
 }
-
+#banner {
+	height:100px;
+}
+@media (max-width: 700px) {
+	#banner {
+  	  width: 100%;
+    	max-width: 100%;
+    	height:auto;
+  }
+}
 
 
 
@@ -121,10 +131,22 @@ header {
 	padding:5px;
 }
 @media (max-width: 700px) {
-  #sidebar, #tagline {
+  #sidebar {
   	display:none;
   }
 }
+#bottombar {
+	width:350px;
+	padding:5px;
+	padding-top:12px;
+  display:table-cell;
+}
+@media (min-width: 701px) {
+  #bottombar {
+  	display:none;
+  }
+}
+
 aside > p {
 	margin-top: 12px;
 }
@@ -194,4 +216,19 @@ aside a, aside a:visited {
 	border-left:dashed 1px;
 	border-right:dashed 1px;
 	padding: 5px;
+}
+
+/*About page*/
+.quanda {
+	margin: 30px;
+	outline:solid black 1px;
+
+}
+@media (max-width: 700px) {
+  .quanda {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 5px;
+  margin-right: 5px;
+  }
 }
